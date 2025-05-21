@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #22386c;
+}
+
+label, select, input {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #fbf6f0;
+  color: #ffbd59;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #001b79;
+}
