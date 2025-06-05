@@ -1,0 +1,139 @@
+                                      /*css page accueil  ---------------  ameni*/
+
+/* Structure générale */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0; /* Beige */
+  color: #22386c; /* Bleu foncé */
+}
+
+/* En-tête et navigation */
+.header-padel {
+  background-color: #001b79; /* Bleu */
+  padding: 1rem;
+  color: #fdf6f0; /* Beige pour le texte */
+}
+
+.nav-padel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo-padel {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links-padel {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links-padel a {
+  color: #fdf6f0; /* Beige */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links-padel a:hover {
+  color: #ffbd59; /* Pêche */
+}
+
+/* Section principale - accueil */
+.hero-padel {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: url('https://images.unsplash.com/photo-1622460054543-55c831a7109c?fit=crop&w=1500&q=80') center/cover no-repeat;
+  color: #fdf6f0; /* Beige */
+}
+
+.hero-padel h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-padel p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Sections internes */
+.section-padel {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fdf6f0; /* Beige */
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(34, 56, 108, 0.2); /* Bleu foncé avec transparence */
+}
+
+.section-padel h2 {
+  color: #ffbd59; /* Pêche */
+  margin-bottom: 1rem;
+}
+/* css creation de compte + authentification */
+/* Palette :
+   Beige: #fdf6f0
+   Pêche: #ffbd59
+   Bleu foncé: #22386c
+   Bleu: #001b79
+*/
+
+body {
+  background-color: #fdf6f0;
+  font-family: Arial, sans-serif;
+  color: #22386c;
+  padding: 2rem;
+  margin: 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(34, 56, 108, 0.2);
+}
+
+h2 {
+  color: #001b79;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ffbd59;
+  color: #001b79;
+  border: none;
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0a849;
+}

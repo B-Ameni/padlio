@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réservation Padel</title>
+  <link rel="stylesheet" href="{% static 'css/accueilstyle.css' %}">
+</head>
+<body>
+  <header class="header-padel">
+    <nav class="nav-padel">
+      <div class="logo-padel">Padel Club</div>
+      <div class="nav-links-padel">
+        <a href="#accueil">Accueil</a>
+        <a href="#reservation">Réservation</a>
+        <a href="#tournois">Tournois</a>
+        <a href="#contact">Contact</a>
+        <a href="{% url 'connecter' %}">Se connecter</a>
+        <a href="{% url 'creerCompte' %}">Créer un compte</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-padel" id="accueil">
+    <h1>Réservez votre terrain de padel facilement</h1>
+    <p>Bienvenue sur notre plateforme de réservation de terrains de padel. Simple, rapide et efficace !</p>
+  </section>
+
+  <section class="section-padel" id="reservation">
+    <h2>Réservation</h2>
+    <p>Réservez votre terrain en quelques clics grâce à notre système en ligne.</p>
+  </section>
+
+  <section class="section-padel" id="tournois">
+    <h2>Tournois</h2>
+    <p>Découvrez nos prochains tournois et inscrivez-vous pour relever le défi !</p>
+  </section>
+
+  <section class="section-padel" id="contact">
+    <h2>Contact</h2>
+    <p>Besoin d'aide ? Contactez-nous par téléphone, email ou via notre formulaire en ligne.</p>
+  </section>
+
+  <section class="section-padel" id="connecter">
+    <h2>Connexion</h2>
+    <p>Connectez-vous pour accéder à votre compte et gérer vos réservations.</p>
+  </section>
+
+  <section class="section-padel" id="creer-compte">
+    <h2>Créer un compte</h2>
+    <p>Inscrivez-vous dès maintenant pour profiter de tous nos services.</p>
+  </section>
+</body>
+</html>
